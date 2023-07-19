@@ -1,0 +1,30 @@
+@import './base.css';
+
+.container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: url(../assets/bgc.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
